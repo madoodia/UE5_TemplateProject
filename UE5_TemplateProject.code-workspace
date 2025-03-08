@@ -1,0 +1,70 @@
+{
+    "folders": [
+        {
+            "name": "UE5_TemplateProject",
+            "path": "."
+        },
+        {
+            "name": "UE5",
+            "path": "D:/UnrealEngine/Engine"
+        }
+    ],
+    "settings": {
+        "C_Cpp.codeAnalysis.runAutomatically": false
+    },
+    "extensions": {
+        "recommendations": ["ms-vscode.cpptools", "ms-dotnettools.csharp"]
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "UE_Build",
+                "command": "${workspaceFolder}/BatchFiles/Build.bat",
+                "type": "shell",
+                "args": [],
+                "problemMatcher": [],
+                "presentation": {
+                    "reveal": "always"
+                },
+                "group": "build"
+            },
+            {
+                "label": "UE_Editor",
+                "command": "${workspaceFolder}/BatchFiles/Editor.bat -log",
+                "type": "shell",
+                "args": [],
+                "problemMatcher": [],
+                "presentation": {
+                    "reveal": "always"
+                },
+                "group": "build"
+            },
+            {
+                "label": "UE_Run",
+                "command": "cmd.exe",
+                "args": [
+                    "/c",
+                    "${workspaceFolder}/BatchFiles/Build.bat && ${workspaceFolder}/BatchFiles/Editor.bat",
+                    "-log"
+                ],
+                "type": "shell",
+                "problemMatcher": [],
+                "presentation": {
+                    "reveal": "always"
+                },
+                "group": "build"
+            },
+            {
+                "label": "UE_Clean",
+                "command": "${workspaceFolder}/BatchFiles/Clean.bat",
+                "type": "shell",
+                "problemMatcher": [],
+                "presentation": {
+                    "reveal": "always"
+                },
+                "group": "build"
+            }
+        ]
+    }
+}

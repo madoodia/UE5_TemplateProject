@@ -1,0 +1,24 @@
+// Copy the contents of this file to the keybindings.json file in the .vscode folder of your project.
+// C:\Users\<YOUR USERNAME>\AppData\Roaming\Code\User\keybindings.json
+[
+    {
+        "key": "ctrl+alt+shift+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "UE_Build"
+    },
+    {
+        "key": "ctrl+alt+shift+e",
+        "command": "workbench.action.tasks.runTask",
+        "args": "UE_Editor"
+    },
+    {
+        "key": "ctrl+alt+shift+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "UE_Run"
+    },
+    {
+        "key": "ctrl+alt+shift+c",
+        "command": "workbench.action.tasks.runTask",
+        "args": "UE_Clean"
+    }
+]

@@ -1,0 +1,76 @@
+# (C) 2025 madoodia.com All Rights Reserved.
+BasedOnStyle: LLVM
+UseTab: ForIndentation
+PointerAlignment: Left
+
+AllowShortBlocksOnASingleLine: Always
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortCaseExpressionOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortCompoundRequirementOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: None
+AllowShortLoopsOnASingleLine: false
+# AllowShortNamespacesOnASingleLine: false // clang 21
+
+BreakConstructorInitializers: BeforeComma
+
+BinPackArguments: true
+BinPackParameters: false
+
+BitFieldColonSpacing: None
+
+AllowAllParametersOfDeclarationOnNextLine: false
+AccessModifierOffset: -4
+SortIncludes: false
+EmptyLineBeforeAccessModifier: Always
+ObjCBreakBeforeNestedBlockParam: true
+
+IndentWidth: 4
+TabWidth: 4
+
+AlignAfterOpenBracket: AlwaysBreak
+BracedInitializerIndentWidth: 4
+
+BreakAfterJavaFieldAnnotations: false
+
+BreakArrays: false
+AlignArrayOfStructures: Left
+
+BreakBeforeConceptDeclarations: Always
+BreakBeforeTernaryOperators: true
+BreakInheritanceList: AfterComma
+
+
+IndentCaseLabels: true
+IndentCaseBlocks: true
+
+SpacesInContainerLiterals: false
+SpacesInSquareBrackets: false
+SpacesInParentheses: false
+# ArrayInitializerAlignmentStyle: Left # clang 21
+
+BreakBeforeBraces: Allman
+ColumnLimit: 0  # Optional, removes line length restriction
+# AlignArrayLeft: true # clang 21
+ConstructorInitializerIndentWidth: 4
+
+# BraceWrapping:
+#   AfterControlStatement: true
+#   AfterFunction: true
+#   AfterCaseLabel : true
+#   AfterClass: true
+#   AfterStruct: true
+#   AfterUnion: true
+#   AfterNamespace: true
+#   AfterEnum: true
+#   AfterExternBlock: true
+#   BeforeElse: true
+#   BeforeWhile: true
+#   BeforeCatch: true
+#   BeforeLambdaBody: true
+#   SplitEmptyFunction: true
+#   SplitEmptyRecord: true
+#   SplitEmptyNamespace: true
+

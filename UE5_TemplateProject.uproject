@@ -1,0 +1,15 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{17833ABF-46BD-48E6-CD67-D6961723431E}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UE5_TemplateProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+	],
+	"Plugins": [
+	]
+}
