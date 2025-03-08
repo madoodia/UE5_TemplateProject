@@ -25,7 +25,8 @@
                 "args": [],
                 "problemMatcher": [],
                 "presentation": {
-                    "reveal": "always"
+                    "reveal": "always",
+                    "echo": true
                 },
                 "group": "build"
             },
@@ -36,7 +37,8 @@
                 "args": [],
                 "problemMatcher": [],
                 "presentation": {
-                    "reveal": "always"
+                    "reveal": "always",
+                    "echo": true
                 },
                 "group": "build"
             },
@@ -51,7 +53,8 @@
                 "type": "shell",
                 "problemMatcher": [],
                 "presentation": {
-                    "reveal": "always"
+                    "reveal": "always",
+                    "echo": true
                 },
                 "group": "build"
             },
@@ -61,7 +64,8 @@
                 "type": "shell",
                 "problemMatcher": [],
                 "presentation": {
-                    "reveal": "always"
+                    "reveal": "always",
+                    "echo": true
                 },
                 "group": "build"
             }
